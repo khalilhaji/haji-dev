@@ -16,7 +16,7 @@ const ProfileImage = () => {
 		}
 	`);
 	return (
-            <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+            <Img className={profileImageStyles.profileImage} fluid={data.placeholderImage.childImageSharp.fluid} />
 
         );
 };

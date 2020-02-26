@@ -1,4 +1,4 @@
-img {
+.profile-image {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgb(38, 173, 179, .5);
