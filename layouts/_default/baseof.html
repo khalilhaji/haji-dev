@@ -1,0 +1,12 @@
+<html>
+  {{ partial "head" .}}
+  <body>
+    {{ partial "nav" .}}
+    <div class="content fancy">
+      <div class="inner-content">
+	{{ block "main" . }}
+	{{ end }}
+      </div>
+    </div>
+  </body>
+</html>

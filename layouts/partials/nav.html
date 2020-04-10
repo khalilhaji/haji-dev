@@ -1,0 +1,24 @@
+<nav>
+
+  <a href="/">
+    <img src="/images/profile.jpeg">
+  </a>
+  <a href="/">
+    <h1>Khalil Haji
+      <p style="font-size: 10px;">btw, I use arch</p></h1>
+  </a>
+  <div class="nav">
+    <ul class="fancy">
+      {{ $currentPage := .}}
+      {{ range .Site.Menus.main }}
+      <li><a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">
+	  {{ .Name }}{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}<span class="logo_cursor"></span>{{end}}
+      </a></li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="social fancy" style="margin: auto;">
+    
+    <a href="https://github.com">./github.sh</a>
+  </div>
+</nav>
