@@ -23,6 +23,11 @@ code {
     color: inherit;
 }
 
+h1 {
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
 nav {
     padding-top: 10rem;
     display:    flex;

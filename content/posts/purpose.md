@@ -3,8 +3,6 @@ title: "Purpose Statements"
 date: "2020-03-01"
 ---
 
-# Purpose Statements
-
 ## 42
 
 In The Hitchhiker's Guide to the Galaxy, programmers spend 7.5 million years waiting for their computer to compute the answer to the universe.
