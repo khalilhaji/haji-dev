@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: 'Ubuntu';
+    display: flex;
+    background-color: #204052;
+    color: #bfbfbf;
+}
+
+::selection {
+    background: #268bd2;
+}
+
+.title {
+    flex-basis: 10%;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+code {
+    color: inherit;
+}
+
+h1 {
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+#sideNav {
+    background-color: #13383c;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+		font-weight: 800;
+		letter-spacing: 0.05rem;
+		text-transform: uppercase;
+}
+
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    text-transform: none;
+		display: none;
+}
+
+#sideNav .navbar-brand {
+		margin-right: inherit;
+		margin-top: auto;
+}
+
+@media (min-width: 768px) {
+    #sideNav {
+				display:    flex;
+				position: fixed;
+				text-align: center;
+				flex-direction: column;
+				align-items: stretch;
+				top: 0;
+				left: 0;
+				height: 100vh;
+				width: 16rem;
+				background-color: #13383c;
+				overflow-y: auto
+    }
+
+    #sideNav .nav-link {
+				display: block;
+    }
+    #sideNav .navbar-collapse {
+				display: flex;
+				align-items: flex-start;
+				flex-grow: 0;
+				width: 100%;
+				margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+				flex-direction: column;
+				width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+				display: block;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+				display: block;
+				text-transform: none;
+    }
+}
+
+#sideNav h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: auto;
+    marin-top: 0;
+}
+
+
+#sideNav ul {
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+}
+
+#sideNav li {
+    font-weight: 800;
+    letter-spacing: .05rem;
+    padding: 10px;
+    width: 100%;
+}
+
+
+#sideNav img {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgb(38, 173, 179, .5);
+    border-radius: 30%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.content {
+    margin-top: 102px;
+    display: flex;
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .content {
+				width: 100%;
+				height: 100%;
+				margin-left: 16rem;
+				margin-top: auto;
+    }
+}
+
+.inner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .inner-content {
+				width: 75%;
+				min-height: 100vh;
+    }
+}
+
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #bfbfbf;
+}
+
+.fancy a {
+    background: linear-gradient(to bottom, #268bd2, #268bd2);
+    background-position: 0 100%;
+    background-size: 100% 0;
+    text-decoration: underline;
+    background-repeat: repeat-x;
+    color: #bfbfbf;
+    -webkit-transition: background-size .2s;
+    transition: background-size .2s;
+    padding: 5px;
+}
+
+.fancy a:hover {
+    background-size: 100% 100%;
+    text-decoration: none;
+    color: white;
+}
+
+nav .fancy a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+nav .social {
+    
+}
+
+.logo_cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1em;
+    background: #268bd2;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.post-month {
+    display: flex;
+    margin-bottom: 1.9em;
+    margin-top: 1rem;
+    line-height: normal;
+}
+
+.post-month ul {
+    list-style: none;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.post-month li {
+    border-bottom: 1px #bfbfbf dotted;
+}
+.post-month .date {
+}
+.post-month a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.month-year {
+    margin-right: 2rem;
+    padding-top: 6px;
+    font-size: 1.6em;
+    opacity: .5;
+    color: #a9a9b3;
+}

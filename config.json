@@ -1,0 +1,14 @@
+{
+    "baseURL": "https://haji.dev/",
+    "languageCode": "en-us",
+    "title": "Khalil Haji",
+    "sectionPagesMenu": "main",
+    "menu": {
+    	"main": [
+    	    {"identifier": "resume",
+    	     "name": "./resume",
+    	     "url": "/documents/resume.pdf"
+    	    }
+    	]}
+}
+

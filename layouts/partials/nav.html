@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-md navbar fixed-top" id="sideNav">
+	<a href="/" class="navbar-brand">
+		<img class="d-none d-md-block" src="/images/profile.jpeg">
+		<h1>Khalil Haji
+			<p style="font-size: 10px;">btw, I use arch</p></h1>
+	</a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+		<span class="fa fa-bars" style="color: #bfbfbf;"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarSupportedContent">
+		<ul class="fancy navbar-nav">
+			{{ $currentPage := .}}
+			{{ range .Site.Menus.main }}
+			<li class="nav-item"><a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">
+					{{ .Name }}{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}<span class="logo_cursor"></span>{{end}}
+			</a></li>
+			{{ end }}
+		</ul>
+	</div>
+	<div class="social fancy d-none d-md-block" style="margin: auto;">
+
+		<a href="https://github.com">./github.sh</a>
+	</div>
+</nav>
