@@ -109,6 +109,10 @@ h1 {
     width: 100%;
 }
 
+.inner-content p img {
+		height: 30rem;
+}
+
 
 #sideNav img {
     max-width: 10rem;
