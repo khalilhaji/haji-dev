@@ -110,7 +110,15 @@ h1 {
 }
 
 .inner-content p img {
-		height: 30rem;
+		width: 100%;
+		height: auto;
+}
+
+@media(min-width: 768px) {
+		.inner-content p img {
+				height: 30rem;
+				width: auto;
+		}
 }
 
 
