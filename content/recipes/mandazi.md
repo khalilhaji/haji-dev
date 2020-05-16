@@ -1,6 +1,7 @@
 ---
 title: "Mandazi"
 date: "2020-05-14"
+description: "African Fried Dough"
 ---
 
 ![Mandazi](/images/mandazi.jpeg)
