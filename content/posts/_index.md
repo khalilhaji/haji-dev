@@ -1,5 +1,5 @@
 ---
-title: "./posts/"
+title: "~/posts/"
 ---
 
 ## Posts Home

@@ -1,5 +1,5 @@
 ---
-title: "./contact"
+title: "~/contact"
 menu: "main"
 ---
 

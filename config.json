@@ -6,7 +6,7 @@
     "menu": {
     	"main": [
     	    {"identifier": "resume",
-    	     "name": "./resume",
+    	     "name": "~/resume",
     	     "url": "/documents/resume.pdf"
     	    }
     	]}

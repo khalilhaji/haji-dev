@@ -1,5 +1,5 @@
 ---
-title: "./recipes/"
+title: "~/recipes/"
 ---
 
 ## Recipes Home

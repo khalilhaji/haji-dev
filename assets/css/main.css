@@ -3,12 +3,12 @@
 body {
     font-family: 'Ubuntu';
     display: flex;
-    background-color: #204052;
-    color: #bfbfbf;
+    background-color: #fefefe;
+    color: #111111;
 }
 
 ::selection {
-    background: #268bd2;
+    background: #458588;
 }
 
 .title {
@@ -29,7 +29,9 @@ h1 {
 }
 
 #sideNav {
-    background-color: #13383c;
+    background-color: #fefefe;
+		border-right: 2px solid;
+		
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -58,7 +60,6 @@ h1 {
 				left: 0;
 				height: 100vh;
 				width: 16rem;
-				background-color: #13383c;
 				overflow-y: auto
     }
 
@@ -125,8 +126,8 @@ h1 {
 #sideNav img {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgb(38, 173, 179, .5);
-    border-radius: 30%;
+    border: 0.25rem solid;
+    border-radius: 10px;
     justify-content: center;
     margin: auto;
     display: block;
@@ -168,16 +169,15 @@ h1 {
 a, a:hover {
     text-decoration: none;
     outline: none;
-    color: #bfbfbf;
+    color: #111111;
 }
 
 .fancy a {
-    background: linear-gradient(to bottom, #268bd2, #268bd2);
+    background: linear-gradient(to bottom, #458588, #458588);
     background-position: 0 100%;
     background-size: 100% 0;
     text-decoration: underline;
     background-repeat: repeat-x;
-    color: #bfbfbf;
     -webkit-transition: background-size .2s;
     transition: background-size .2s;
     padding: 5px;
@@ -196,15 +196,15 @@ nav .fancy a {
 }
 
 
-nav .social {
+/* nav .social { */
     
-}
+/* } */
 
 .logo_cursor {
     display: inline-block;
     width: 8px;
     height: 1em;
-    background: #268bd2;
+    background: #458588;
     margin-left: 5px;
     border-radius: 1px;
     animation: cursor 1s infinite;
@@ -231,7 +231,7 @@ nav .social {
 }
 
 .post-month li {
-    border-bottom: 1px #bfbfbf dotted;
+    border-bottom: 1px dotted;
 }
 .post-month .date {
 }
@@ -246,7 +246,6 @@ nav .social {
 .month-year {
     margin-right: 2rem;
     padding-top: 6px;
-    font-size: 1.6em;
+     font-size: 1.6em;
     opacity: .5;
-    color: #a9a9b3;
 }
