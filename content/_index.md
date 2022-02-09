@@ -1,9 +1,8 @@
 ---
-title: "~"
+title: "/home/"
 menu: "main"
 weight: -1
 ---
-
 
 # Hi, I'm Khalil
 
