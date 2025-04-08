@@ -34,12 +34,16 @@ h1 {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
   text-transform: none;
 }
 
@@ -62,9 +66,6 @@ h1 {
     overflow-y: auto;
   }
 
-  #sideNav .nav-link {
-    display: block;
-  }
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -78,11 +79,6 @@ h1 {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
-  }
-
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-    text-transform: none;
   }
 }
 
